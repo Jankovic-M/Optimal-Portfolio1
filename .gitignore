@@ -1,0 +1,19 @@
+# data and sensitive stuff
+data/
+*.csv
+*.xlsx
+*.parquet
+*.feather
+secrets*.json
+.env
+
+# python cache
+__pycache__/
+*.pyc
+
+# notebooks cache
+.ipynb_checkpoints/
+
+# OS cruft
+.DS_Store
+Thumbs.db
